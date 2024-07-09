@@ -1,12 +1,24 @@
 import {Header, Footer} from "@/layouts";
-import {Home} from "@/pages";
+import {Home, About} from "@/pages";
 import "./Layout.css";
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element: <Home/>
+  },
+  {
+    path:"/a-propos",
+    element: <About/>
+  }
+]);
 
 const Layout = () => {
     return(
     <>
       <Header/>
-      <Home/>
+      <RouterProvider router={router}/>
       <Footer/>
     </>
   );
