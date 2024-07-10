@@ -29,11 +29,9 @@ const router = createBrowserRouter([
 
 const Layout = () => {
   return (
-    <>
-      <ThemeProvider>
-        <RouterProvider router={router} />
-      </ThemeProvider>
-    </>
+    <ThemeProvider>
+      <RouterProvider router={router} />
+    </ThemeProvider>
   );
 }
 

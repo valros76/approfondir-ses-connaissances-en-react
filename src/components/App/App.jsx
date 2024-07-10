@@ -2,9 +2,11 @@ import Layout from "@/layouts/Layout.jsx";
 import "./App.css";
 
 const App = () => {
-  return(
+
+  
+  return (
     <>
-      <Layout/>
+        <Layout/>
     </>
   );
 }
