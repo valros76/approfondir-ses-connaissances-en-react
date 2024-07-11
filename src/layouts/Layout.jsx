@@ -1,5 +1,5 @@
 import { Root } from "@/layouts";
-import { Home, About, NotFound } from "@/pages";
+import { Home, About, NotFound, Dogs } from "@/pages";
 import "./Layout.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ThemeProvider } from "@/contexts/ThemeContext/ThemeContext";
@@ -12,6 +12,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />
+      },
+      {
+        path:"/dogs",
+        element:<Dogs/>
       },
       {
         path: "/a-propos",
