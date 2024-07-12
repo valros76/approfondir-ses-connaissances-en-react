@@ -1,4 +1,6 @@
 .main-content {
+  min-height:90dvh;
+  display:block;
   background-color: transparent;
   color: inherit;
 }

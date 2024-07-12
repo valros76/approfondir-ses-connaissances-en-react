@@ -5,6 +5,7 @@ import Section from "./Section/Section";
 import Paragraph from "./Paragraph/Paragraph";
 import SearchBar from "./SearchBar/SearchBar";
 import Card from "./Card/Card";
+import CitationCard from "./CitationCard/CitationCard";
 
 export {
   App,
@@ -14,4 +15,5 @@ export {
   Paragraph,
   SearchBar,
   Card,
+  CitationCard,
 }

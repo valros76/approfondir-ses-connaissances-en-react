@@ -1,8 +1,8 @@
 import "./Article.css";
 
-const Article = ({ children }) => {
+const Article = ({ className, children }) => {
   return(
-    <article>
+    <article className={className}>
       {children}
     </article>
   );

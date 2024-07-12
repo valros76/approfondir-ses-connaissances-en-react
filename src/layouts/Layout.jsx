@@ -1,5 +1,5 @@
 import { Root } from "@/layouts";
-import { Home, About, NotFound, Dogs } from "@/pages";
+import { Home, About, NotFound, Dogs, Futurama, Citation, Product } from "@/pages";
 import "./Layout.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ThemeProvider } from "@/contexts/ThemeContext/ThemeContext";
@@ -20,6 +20,18 @@ const router = createBrowserRouter([
       {
         path: "/a-propos",
         element: <About />
+      },
+      {
+        path: "/citation",
+        element: <Citation />
+      },
+      {
+        path: "/produit",
+        element: <Product />
+      },
+      {
+        path: "/futurama",
+        element: <Futurama />
       }
     ],
     errorElement: <NotFound />

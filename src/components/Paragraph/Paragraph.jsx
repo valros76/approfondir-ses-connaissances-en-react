@@ -1,8 +1,8 @@
 import "./Paragraph.css";
 
-const Paragraph = ({ children }) => {
+const Paragraph = ({ className, children }) => {
   return(
-    <p>
+    <p className={className}>
       {children}
     </p>
   );

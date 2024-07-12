@@ -1,9 +1,9 @@
 import {Title} from "@/components";
 import "./Section.css";
 
-const Section = ({ sectionTitle, children }) => {
+const Section = ({ sectionTitle, className, children }) => {
   return(
-    <section>
+    <section className={className}>
       {sectionTitle !== "" && <Title
         title={sectionTitle}
         levelTitle={2}

@@ -11,11 +11,19 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  
+  --card-background-color: #fafaea;
+  --figure-background-color: #973250;
+  --cta-primary-background-color: #e03f8d;
+  --cta-primary-background-color-hover: #b81e69;--cta-secondary-text-color:#a9a9a9;
+  --box-shadow-color: #333;
 }
 
 *
 ,*::before,
 *::after{
+  max-width:100%;
   box-sizing:border-box;
 }
 
@@ -30,10 +38,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding:0;
 }
 
 h1 {
